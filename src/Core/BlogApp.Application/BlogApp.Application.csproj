@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Helpers\CustomExceptions\" />
+    <Folder Include="Helpers\Extensions\" />
+    <Folder Include="Mappings\" />
+    <Folder Include="Features\" />
+    <Folder Include="Repositories\Interfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogApp.Domain\BlogApp.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

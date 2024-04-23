@@ -1,0 +1,15 @@
+C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\bin\Debug\net8.0\BlogApp.Persistence.deps.json
+C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\bin\Debug\net8.0\BlogApp.Persistence.dll
+C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\bin\Debug\net8.0\BlogApp.Persistence.pdb
+C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\bin\Debug\net8.0\BlogApp.Domain.dll
+C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\bin\Debug\net8.0\BlogApp.Domain.pdb
+C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\obj\Debug\net8.0\BlogApp.Persistence.csproj.AssemblyReference.cache
+C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\obj\Debug\net8.0\BlogApp.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\obj\Debug\net8.0\BlogApp.Persistence.AssemblyInfoInputs.cache
+C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\obj\Debug\net8.0\BlogApp.Persistence.AssemblyInfo.cs
+C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\obj\Debug\net8.0\BlogApp.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\obj\Debug\net8.0\BlogApp..88A22DF0.Up2Date
+C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\obj\Debug\net8.0\BlogApp.Persistence.dll
+C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\obj\Debug\net8.0\refint\BlogApp.Persistence.dll
+C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\obj\Debug\net8.0\BlogApp.Persistence.pdb
+C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\obj\Debug\net8.0\ref\BlogApp.Persistence.dll

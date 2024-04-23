@@ -9,9 +9,9 @@
   <ItemGroup>
     <Folder Include="Helpers\CustomExceptions\" />
     <Folder Include="Helpers\Extensions\" />
+    <Folder Include="Helpers\Interfaces\" />
     <Folder Include="Mappings\" />
     <Folder Include="Features\" />
-    <Folder Include="Repositories\Interfaces\" />
   </ItemGroup>
 
   <ItemGroup>

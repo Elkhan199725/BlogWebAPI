@@ -13,3 +13,6 @@ C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\obj\D
 C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\obj\Debug\net8.0\refint\BlogApp.Persistence.dll
 C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\obj\Debug\net8.0\BlogApp.Persistence.pdb
 C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\obj\Debug\net8.0\ref\BlogApp.Persistence.dll
+C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\bin\Debug\net8.0\BlogApp.Application.dll
+C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\bin\Debug\net8.0\BlogApp.Application.pdb
+C:\Users\Elkhan Mammadli\source\repos\BlogApp\src\Core\BlogApp.Persistence\obj\Debug\net8.0\BlogApp.Persistence.sourcelink.json

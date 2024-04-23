@@ -14,47 +14,40 @@ namespace BlogApp.Persistence.Repositories.Implementations;
 
 public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity, new()
 {
-    protected readonly DbContext _context;
+    private readonly DbContext _context;
+    private readonly DbSet<T> _dbSet;
     private IDbContextTransaction _transaction;
 
     public GenericRepository(DbContext context)
     {
-        _context = context;
+        _context = context ?? throw new ArgumentNullException(nameof(context));
+        _dbSet = _context.Set<T>();
     }
 
-    public async Task<T> GetByIdAsync(int id)
+    public async Task<T> GetByIdAsync(int id, params Expression<Func<T, object>>[] includes)
     {
-        return await _context.Set<T>().FindAsync(id);
-    }
+        IQueryable<T> query = _dbSet;
 
-    public async Task<T> GetSingleAsync(Expression<Func<T, bool>> filter,
-                                        Func<IQueryable<T>, IIncludableQueryable<T, object>> include = null)
-    {
-        IQueryable<T> query = _context.Set<T>();
+        // Apply includes
+        query = includes.Aggregate(query, (current, include) => current.Include(include));
 
-        if (filter != null)
-            query = query.Where(filter);
-
-        if (include != null)
-            query = include(query);
-
-        return await query.FirstOrDefaultAsync();
+        // Search for the entity with the given ID (assuming `Id` is the name of your primary key)
+        return await query.SingleOrDefaultAsync(entity => entity.Id.Equals(id));
     }
 
     public async Task<List<T>> GetAllAsync(
         Expression<Func<T, bool>> filter = null,
         Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
-        Func<IQueryable<T>, IIncludableQueryable<T, object>> include = null,
         int? page = null,
-        int? pageSize = null)
+        int? pageSize = null,
+        params Expression<Func<T, object>>[] includes)
     {
-        IQueryable<T> query = _context.Set<T>();
+        IQueryable<T> query = _dbSet;
+
+        query = includes.Aggregate(query, (current, include) => current.Include(include));
 
         if (filter != null)
             query = query.Where(filter);
-
-        if (include != null)
-            query = include(query);
 
         if (orderBy != null)
             query = orderBy(query);
@@ -65,22 +58,51 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity, 
         return await query.ToListAsync();
     }
 
+    public async Task<List<T>> FindAsync(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includes)
+    {
+        IQueryable<T> query = _dbSet;
+        query = includes.Aggregate(query, (current, include) => current.Include(include));
+        return await query.Where(predicate).ToListAsync();
+    }
+
+    public async Task<T> GetSingleAsync(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includes)
+    {
+        IQueryable<T> query = _dbSet;
+        query = includes.Aggregate(query, (current, include) => current.Include(include));
+        return await query.SingleOrDefaultAsync(predicate);
+    }
+
     public async Task<T> AddAsync(T entity)
     {
-        _context.Set<T>().Add(entity);
+        if (entity == null) throw new ArgumentNullException(nameof(entity));
+        _dbSet.Add(entity);
         await SaveChangesAsync();
         return entity;
     }
 
+    public async Task AddRangeAsync(IEnumerable<T> entities)
+    {
+        if (entities == null) throw new ArgumentNullException(nameof(entities));
+        _dbSet.AddRange(entities);
+        await SaveChangesAsync();
+    }
+
     public async Task UpdateAsync(T entity)
     {
-        _context.Set<T>().Update(entity);
+        if (entity == null) throw new ArgumentNullException(nameof(entity));
+        _dbSet.Attach(entity);
+        _context.Entry(entity).State = EntityState.Modified;
         await SaveChangesAsync();
     }
 
     public async Task DeleteAsync(T entity)
     {
-        _context.Set<T>().Remove(entity);
+        if (entity == null) throw new ArgumentNullException(nameof(entity));
+        if (_context.Entry(entity).State == EntityState.Detached)
+        {
+            _dbSet.Attach(entity);
+        }
+        _dbSet.Remove(entity);
         await SaveChangesAsync();
     }
 
@@ -89,6 +111,7 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity, 
         return await _context.SaveChangesAsync();
     }
 
+    // Transaction Methods
     public async Task BeginTransactionAsync()
     {
         _transaction = await _context.Database.BeginTransactionAsync();
@@ -96,12 +119,25 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity, 
 
     public async Task CommitTransactionAsync()
     {
-        await _context.SaveChangesAsync();
-        await _transaction.CommitAsync();
+        try
+        {
+            await _context.SaveChangesAsync();
+            await _transaction.CommitAsync();
+        }
+        catch
+        {
+            await _transaction.RollbackAsync();
+            throw;
+        }
+        finally
+        {
+            await _transaction.DisposeAsync();
+        }
     }
 
     public async Task RollbackTransactionAsync()
     {
         await _transaction.RollbackAsync();
+        await _transaction.DisposeAsync();
     }
 }

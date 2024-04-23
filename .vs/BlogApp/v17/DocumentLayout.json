@@ -3,23 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2F43F8DF-50A0-4D7D-AB41-D2297DE4FE0A}|src\\Presentation\\BlogApp.API\\BlogApp.API.csproj|c:\\users\\elkhan mammadli\\source\\repos\\blogapp\\src\\presentation\\blogapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F43F8DF-50A0-4D7D-AB41-D2297DE4FE0A}|src\\Presentation\\BlogApp.API\\BlogApp.API.csproj|solutionrelative:src\\presentation\\blogapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DA99E7-F03C-4D8E-BC35-D1AEF73C8C6B}|src\\Core\\BlogApp.Persistence\\BlogApp.Persistence.csproj|c:\\users\\elkhan mammadli\\source\\repos\\blogapp\\src\\core\\blogapp.persistence\\persistenceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19DA99E7-F03C-4D8E-BC35-D1AEF73C8C6B}|src\\Core\\BlogApp.Persistence\\BlogApp.Persistence.csproj|solutionrelative:src\\core\\blogapp.persistence\\persistenceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F43F8DF-50A0-4D7D-AB41-D2297DE4FE0A}|src\\Presentation\\BlogApp.API\\BlogApp.API.csproj|c:\\users\\elkhan mammadli\\source\\repos\\blogapp\\src\\presentation\\blogapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2F43F8DF-50A0-4D7D-AB41-D2297DE4FE0A}|src\\Presentation\\BlogApp.API\\BlogApp.API.csproj|solutionrelative:src\\presentation\\blogapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DA99E7-F03C-4D8E-BC35-D1AEF73C8C6B}|src\\Core\\BlogApp.Persistence\\BlogApp.Persistence.csproj|C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\core\\blogapp.persistence\\repositories\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19DA99E7-F03C-4D8E-BC35-D1AEF73C8C6B}|src\\Core\\BlogApp.Persistence\\BlogApp.Persistence.csproj|solutionrelative:src\\core\\blogapp.persistence\\repositories\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD354A94-14DB-4880-83F9-34B118F4A805}|src\\Core\\BlogApp.Application\\BlogApp.Application.csproj|C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\core\\blogapp.application\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD354A94-14DB-4880-83F9-34B118F4A805}|src\\Core\\BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:src\\core\\blogapp.application\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{19DA99E7-F03C-4D8E-BC35-D1AEF73C8C6B}|src\\Core\\BlogApp.Persistence\\BlogApp.Persistence.csproj|c:\\users\\elkhan mammadli\\source\\repos\\blogapp\\src\\core\\blogapp.persistence\\repositories\\implementations\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19DA99E7-F03C-4D8E-BC35-D1AEF73C8C6B}|src\\Core\\BlogApp.Persistence\\BlogApp.Persistence.csproj|solutionrelative:src\\core\\blogapp.persistence\\repositories\\implementations\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19DA99E7-F03C-4D8E-BC35-D1AEF73C8C6B}|src\\Core\\BlogApp.Persistence\\BlogApp.Persistence.csproj|c:\\users\\elkhan mammadli\\source\\repos\\blogapp\\src\\core\\blogapp.persistence\\repositories\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19DA99E7-F03C-4D8E-BC35-D1AEF73C8C6B}|src\\Core\\BlogApp.Persistence\\BlogApp.Persistence.csproj|solutionrelative:src\\core\\blogapp.persistence\\repositories\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD354A94-14DB-4880-83F9-34B118F4A805}|src\\Core\\BlogApp.Application\\BlogApp.Application.csproj|c:\\users\\elkhan mammadli\\source\\repos\\blogapp\\src\\core\\blogapp.application\\repositories\\interfaces\\iblogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD354A94-14DB-4880-83F9-34B118F4A805}|src\\Core\\BlogApp.Application\\BlogApp.Application.csproj|C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\core\\blogapp.application\\repositories\\interfaces\\iblogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD354A94-14DB-4880-83F9-34B118F4A805}|src\\Core\\BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:src\\core\\blogapp.application\\repositories\\interfaces\\iblogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD354A94-14DB-4880-83F9-34B118F4A805}|src\\Core\\BlogApp.Application\\BlogApp.Application.csproj|c:\\users\\elkhan mammadli\\source\\repos\\blogapp\\src\\core\\blogapp.application\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD354A94-14DB-4880-83F9-34B118F4A805}|src\\Core\\BlogApp.Application\\BlogApp.Application.csproj|solutionrelative:src\\core\\blogapp.application\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19DA99E7-F03C-4D8E-BC35-D1AEF73C8C6B}|src\\Core\\BlogApp.Persistence\\BlogApp.Persistence.csproj|c:\\users\\elkhan mammadli\\source\\repos\\blogapp\\src\\core\\blogapp.persistence\\contexts\\blogappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{19DA99E7-F03C-4D8E-BC35-D1AEF73C8C6B}|src\\Core\\BlogApp.Persistence\\BlogApp.Persistence.csproj|C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\core\\blogapp.persistence\\contexts\\blogappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19DA99E7-F03C-4D8E-BC35-D1AEF73C8C6B}|src\\Core\\BlogApp.Persistence\\BlogApp.Persistence.csproj|solutionrelative:src\\core\\blogapp.persistence\\contexts\\blogappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,8 +66,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Presentation\\BlogApp.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Presentation\\BlogApp.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Presentation\\BlogApp.API\\appsettings.json",
+              "RelativeToolTip": "src\\Presentation\\BlogApp.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-23T08:44:11.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Presentation\\BlogApp.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Presentation\\BlogApp.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Presentation\\BlogApp.API\\Program.cs",
+              "RelativeToolTip": "src\\Presentation\\BlogApp.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T08:38:06.036Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -74,7 +112,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "PersistenceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Core\\BlogApp.Persistence\\PersistenceRegistration.cs",
+              "RelativeDocumentMoniker": "src\\Core\\BlogApp.Persistence\\PersistenceRegistration.cs",
+              "ToolTip": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Core\\BlogApp.Persistence\\PersistenceRegistration.cs",
+              "RelativeToolTip": "src\\Core\\BlogApp.Persistence\\PersistenceRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T08:35:48.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "BlogRepository.cs",
               "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Core\\BlogApp.Persistence\\Repositories\\Implementations\\BlogRepository.cs",
               "RelativeDocumentMoniker": "src\\Core\\BlogApp.Persistence\\Repositories\\Implementations\\BlogRepository.cs",
@@ -87,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "IBlogRepository.cs",
               "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Core\\BlogApp.Application\\Repositories\\Interfaces\\IBlogRepository.cs",
               "RelativeDocumentMoniker": "src\\Core\\BlogApp.Application\\Repositories\\Interfaces\\IBlogRepository.cs",
@@ -100,33 +151,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Core\\BlogApp.Persistence\\Repositories\\Implementations\\GenericRepository.cs",
               "RelativeDocumentMoniker": "src\\Core\\BlogApp.Persistence\\Repositories\\Implementations\\GenericRepository.cs",
               "ToolTip": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Core\\BlogApp.Persistence\\Repositories\\Implementations\\GenericRepository.cs",
               "RelativeToolTip": "src\\Core\\BlogApp.Persistence\\Repositories\\Implementations\\GenericRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA7AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T07:50:42.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Core\\BlogApp.Application\\Repositories\\Interfaces\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "src\\Core\\BlogApp.Application\\Repositories\\Interfaces\\IGenericRepository.cs",
               "ToolTip": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Core\\BlogApp.Application\\Repositories\\Interfaces\\IGenericRepository.cs",
               "RelativeToolTip": "src\\Core\\BlogApp.Application\\Repositories\\Interfaces\\IGenericRepository.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABIAAAAyAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBMAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T07:50:05.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "BlogAppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Core\\BlogApp.Persistence\\Contexts\\BlogAppDbContext.cs",
               "RelativeDocumentMoniker": "src\\Core\\BlogApp.Persistence\\Contexts\\BlogAppDbContext.cs",
@@ -139,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "BlogImageConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Core\\BlogApp.Domain\\Configurations\\BlogImageConfiguration.cs",
               "RelativeDocumentMoniker": "src\\Core\\BlogApp.Domain\\Configurations\\BlogImageConfiguration.cs",
@@ -147,11 +198,12 @@
               "RelativeToolTip": "src\\Core\\BlogApp.Domain\\Configurations\\BlogImageConfiguration.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T03:33:33.118Z"
+              "WhenOpened": "2024-04-23T03:33:33.118Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "BlogConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Core\\BlogApp.Domain\\Configurations\\BlogConfiguration.cs",
               "RelativeDocumentMoniker": "src\\Core\\BlogApp.Domain\\Configurations\\BlogConfiguration.cs",
@@ -159,11 +211,12 @@
               "RelativeToolTip": "src\\Core\\BlogApp.Domain\\Configurations\\BlogConfiguration.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAuwA8AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T03:33:10.261Z"
+              "WhenOpened": "2024-04-23T03:33:10.261Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "BlogImage.cs",
               "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Core\\BlogApp.Domain\\Models\\Blog\\BlogImage.cs",
               "RelativeDocumentMoniker": "src\\Core\\BlogApp.Domain\\Models\\Blog\\BlogImage.cs",
@@ -171,11 +224,12 @@
               "RelativeToolTip": "src\\Core\\BlogApp.Domain\\Models\\Blog\\BlogImage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T03:14:11.61Z"
+              "WhenOpened": "2024-04-23T03:14:11.61Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Blog.cs",
               "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Core\\BlogApp.Domain\\Models\\Blog\\Blog.cs",
               "RelativeDocumentMoniker": "src\\Core\\BlogApp.Domain\\Models\\Blog\\Blog.cs",
@@ -183,11 +237,12 @@
               "RelativeToolTip": "src\\Core\\BlogApp.Domain\\Models\\Blog\\Blog.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T03:02:02.859Z"
+              "WhenOpened": "2024-04-23T03:02:02.859Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "IBaseAuditable.cs",
               "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Core\\BlogApp.Domain\\Models\\Common\\IBaseAuditable.cs",
               "RelativeDocumentMoniker": "src\\Core\\BlogApp.Domain\\Models\\Common\\IBaseAuditable.cs",
@@ -195,11 +250,12 @@
               "RelativeToolTip": "src\\Core\\BlogApp.Domain\\Models\\Common\\IBaseAuditable.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T02:59:51.724Z"
+              "WhenOpened": "2024-04-23T02:59:51.724Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\BlogApp\\src\\Core\\BlogApp.Domain\\Models\\Common\\BaseEntity.cs",
               "RelativeDocumentMoniker": "src\\Core\\BlogApp.Domain\\Models\\Common\\BaseEntity.cs",
@@ -207,7 +263,8 @@
               "RelativeToolTip": "src\\Core\\BlogApp.Domain\\Models\\Common\\BaseEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T02:46:26.632Z"
+              "WhenOpened": "2024-04-23T02:46:26.632Z",
+              "EditorCaption": ""
             }
           ]
         }
